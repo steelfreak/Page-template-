@@ -1,0 +1,102 @@
+{
+  "colors": {
+    "primary": "#4CAF50",
+    "background": "#f5f7fa",
+    "text": "#333",
+    "sectionTitle": "#4CAF50",
+    "textMuted": "#555"
+  },
+  "navLinks": [
+    {"id": "hero", "label": "Home"},
+    {"id": "about", "label": "About"},
+    {"id": "menu", "label": "Menu"},
+    {"id": "testimonials", "label": "Testimonials"},
+    {"id": "contact", "label": "Contact"}
+  ],
+  "sections": {
+    "hero": {
+      "title": "Welcome to Our Restaurant",
+      "text": "Experience delightful dining with the freshest ingredients and warm service.",
+      "backgroundImage": "https://images.unsplash.com/photo-1541544187953-1e191a7f088c?auto=format&fit=crop&w=1350&q=80",
+      "button": {
+        "label": "Contact Us",
+        "target": "contact"
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "paragraphs": [
+        "Established in 2020, Book A Table is dedicated to bringing you a unique culinary experience combining modern dishes with traditional flavors. Our chefs craft every meal to perfection, ensuring a memorable dining experience.",
+        "Whether it’s a casual lunch, romantic dinner, or special celebration, we put passion into every detail to make your time with us extraordinary."
+      ],
+      "image": {
+        "src": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=800&q=80",
+        "alt": "Interior of the restaurant with cozy seating"
+      }
+    },
+    "menu": {
+      "title": "Our Menu",
+      "items": [
+        {
+          "img": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80",
+          "alt": "Grilled Salmon with vegetables",
+          "name": "Grilled Salmon",
+          "description": "Fresh Atlantic salmon grilled to perfection, served with seasonal veggies and lemon butter sauce.",
+          "price": "$22.00"
+        },
+        {
+          "img": "https://images.unsplash.com/photo-1543352634-17bb19c53389?auto=format&fit=crop&w=600&q=80",
+          "alt": "Classic Caesar Salad",
+          "name": "Caesar Salad",
+          "description": "Crisp romaine lettuce tossed with Caesar dressing, parmesan, croutons, and anchovies.",
+          "price": "$12.50"
+        },
+        {
+          "img": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
+          "alt": "Margherita Pizza with basil and mozzarella",
+          "name": "Margherita Pizza",
+          "description": "Traditional pizza topped with fresh basil, tomato sauce, and mozzarella cheese.",
+          "price": "$16.00"
+        },
+        {
+          "img": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=600&q=80",
+          "alt": "Chocolate Lava Cake",
+          "name": "Chocolate Lava Cake",
+          "description": "Warm chocolate cake with a molten centre, served with vanilla ice cream.",
+          "price": "$8.50"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "What Our Customers Say",
+      "reviews": [
+        {
+          "text": "Amazing food and fantastic service! The atmosphere was cosy and perfect for a date night.",
+          "author": "Sarah M."
+        },
+        {
+          "text": "The booking system was simple and efficient. Our table was ready when we arrived. Highly recommend!",
+          "author": "Jason P."
+        },
+        {
+          "text": "Delicious menu, great prices, and friendly staff. A hidden gem in the city.",
+          "author": "Emily W."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "info": {
+        "address": "123 Foodie Lane, Gourmet City, FC 45678",
+        "phone": "+1 (555) 123-4567",
+        "email": "contact@bookatable.com"
+      }
+    }
+  },
+  "socialLinks": [
+    {"href": "#", "label": "Facebook", "icon": "&#x1F426;"},
+    {"href": "#", "label": "Twitter", "icon": "&#x1F426;"},
+    {"href": "#", "label": "Instagram", "icon": "&#x1F426;"}
+  ],
+  "footerCopy": "&copy; 2025 Book A Table. All rights reserved."
+}
